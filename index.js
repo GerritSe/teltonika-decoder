@@ -7,12 +7,15 @@ function decode(buffer) {
   if (imei !== null) {
     return {
       imei,
-      isImei: true,
-      records: []
+      isImei: true
     }
   }
 
-  return decodePackage(buffer)
+  return {
+    imei: null,
+    isImei: false,
+    ...decodePackage(buffer)
+  }
 }
 
 module.exports = decode
