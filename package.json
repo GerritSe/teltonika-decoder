@@ -1,0 +1,12 @@
+{
+  "name": "teltonika-decoder",
+  "version": "0.0.1",
+  "description": "A decoder for encoded Teltonika network packages",
+  "main": "index.js",
+  "author": "Gerrit Seger <gerrit.seger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "binutils64": "^0.1.2",
+    "crc": "^3.8.0"
+  }
+}
