@@ -2,7 +2,7 @@ const decodeCodec8 = require('./codecs/decodeCodec8')
 const decodeFooter = require('./decodeFooter')
 const decodeHeader = require('./decodeHeader')
 const { CodecUnsupportedError } = require('./errors')
-const validateRecords = require('./validateRecords')
+const validatePackage = require('./validatePackage')
 const { dataBufferFromBuffer, footerBufferFromBuffer } = require('./utils')
 
 function decoderForCodecId(codecId) {
@@ -11,12 +11,12 @@ function decoderForCodecId(codecId) {
   throw new CodecUnsupportedError(codecId)
 }
 
-function decodeRecords(buffer) {
+function decodePackage(buffer) {
   const header = decodeHeader(buffer)
   const footer = decodeFooter(footerBufferFromBuffer(buffer))
   const decoder = decoderForCodecId(header.codecId)
 
-  validateRecords(header, footer, buffer)
+  validatePackage(header, footer, buffer)
   
   return {
     data: decoder(dataBufferFromBuffer(buffer), header.numberOfData),
@@ -27,4 +27,4 @@ function decodeRecords(buffer) {
   }
 }
 
-module.exports = decodeRecords
+module.exports = decodePackage

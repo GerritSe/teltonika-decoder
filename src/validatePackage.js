@@ -3,7 +3,7 @@ const { crc16 } = require('crc')
 const { ChecksumError, NumberOfDataError } = require('./errors')
 const { checksumBufferFromBuffer } = require('./utils')
 
-function validateRecords(header, footer, buffer) {
+function validatePackage(header, footer, buffer) {
   if (header.numberOfData !== footer.numberOfData) {
     throw new NumberOfDataError()
   }
@@ -13,4 +13,4 @@ function validateRecords(header, footer, buffer) {
   }
 }
 
-module.exports = validateRecords
+module.exports = validatePackage
