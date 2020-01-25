@@ -2,6 +2,7 @@ const { BinaryReader } = require('binutils64')
 
 const { decodePosition, parseHexadecimalInt } = require('../utils')
 
+const IBUTTON_READER_EVENT_ID = 78
 const IO_ELEMENTS_VALUE_READERS = Object.freeze([
   reader => parseHexadecimalInt(reader.ReadBytes(1)),
   reader => reader.ReadInt16(),
@@ -44,11 +45,14 @@ function decodeIOElements(reader) {
   IO_ELEMENTS_VALUE_READERS.forEach(valueReader => {
     const numberOfElements = parseHexadecimalInt(reader.ReadBytes(1))
 
+
     for (let currentElementIndex = 0; currentElementIndex < numberOfElements; currentElementIndex++) {
-      ioElements.push({
-        id: parseHexadecimalInt(reader.ReadBytes(1)),
-        value: valueReader(reader)
-      })
+      const id = parseHexadecimalInt(reader.ReadBytes(1))
+      const value = id === IBUTTON_READER_EVENT_ID
+        ? reader.ReadBytes(8).swap64().toString('hex')
+        : valueReader(reader)
+
+      ioElements.push({ id, value })
     }
   })
 
