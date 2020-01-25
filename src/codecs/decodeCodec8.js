@@ -6,7 +6,7 @@ const IO_ELEMENTS_VALUE_READERS = Object.freeze([
   reader => parseHexadecimalInt(reader.ReadBytes(1)),
   reader => reader.ReadInt16(),
   reader => reader.ReadInt32(),
-  reader => reader.ReadDouble()
+  reader => reader.ReadUInt64()
 ])
 
 function decodeCodec8(buffer, numberOfData) {
@@ -43,7 +43,7 @@ function decodeIOElements(reader) {
 
   IO_ELEMENTS_VALUE_READERS.forEach(valueReader => {
     const numberOfElements = parseHexadecimalInt(reader.ReadBytes(1))
-    
+
     for (let currentElementIndex = 0; currentElementIndex < numberOfElements; currentElementIndex++) {
       ioElements.push({
         id: parseHexadecimalInt(reader.ReadBytes(1)),
