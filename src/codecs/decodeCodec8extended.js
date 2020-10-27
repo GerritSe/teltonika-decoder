@@ -62,7 +62,7 @@ function decodeIOElements(reader) {
   for (let currentElementIndex = 0; currentElementIndex < numberOfElements; currentElementIndex++) {
     const id = parseHexadecimalInt(reader.ReadBytes(2))
     const length = parseHexadecimalInt(reader.ReadBytes(2))
-    const value = reader.ReadBytes(length)
+    const value = reader.ReadBytes(length).toString('ascii')
 
     ioElements.push({ id, value })
   }
