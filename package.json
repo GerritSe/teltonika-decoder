@@ -1,6 +1,6 @@
 {
   "name": "teltonika-decoder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A decoder for encoded Teltonika network packages",
   "main": "index.js",
   "author": "Gerrit Seger <gerrit.seger@gmail.com>",
