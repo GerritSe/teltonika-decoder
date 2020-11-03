@@ -7,7 +7,7 @@ function decodeImei(buffer) {
   const imeiLength = parseHexadecimalInt(reader.ReadBytes(2))
   const isImei = imeiLength > 0
 
-  return isImei ? reader.ReadBytes(imeiLength) : null
+  return isImei ? reader.ReadBytes(imeiLength).toString('ascii') : null
 }
 
 module.exports = decodeImei
