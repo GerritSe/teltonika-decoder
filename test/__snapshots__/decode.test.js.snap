@@ -1,0 +1,1608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decode codec 8 decodes data 1`] = `
+[
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 0,
+      "angle": 0,
+      "latitude": 52.5766733,
+      "longitude": 8.8111333,
+      "satellites": 0,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 240,
+        "value": 0,
+      },
+      {
+        "id": 80,
+        "value": 4,
+      },
+      {
+        "id": 21,
+        "value": 2,
+      },
+      {
+        "id": 200,
+        "value": 3,
+      },
+      {
+        "id": 69,
+        "value": 3,
+      },
+      {
+        "id": 66,
+        "value": 12.653,
+      },
+      {
+        "id": 16,
+        "value": 515310,
+      },
+    ],
+    "numberOfProperties": 8,
+    "priority": 0,
+    "timestamp": 2020-11-11T12:45:17.000Z,
+  },
+]
+`;
+
+exports[`decode codec 8 extended decodes data 1`] = `
+[
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 0,
+      "angle": 0,
+      "latitude": 52.5766733,
+      "longitude": 8.8111333,
+      "satellites": 0,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 240,
+        "value": 0,
+      },
+      {
+        "id": 80,
+        "value": 4,
+      },
+      {
+        "id": 21,
+        "value": 2,
+      },
+      {
+        "id": 200,
+        "value": 3,
+      },
+      {
+        "id": 69,
+        "value": 3,
+      },
+      {
+        "id": 66,
+        "value": 12.653,
+      },
+      {
+        "id": 16,
+        "value": 515310,
+      },
+    ],
+    "numberOfProperties": 8,
+    "priority": 0,
+    "timestamp": 2020-11-11T12:45:17.000Z,
+  },
+]
+`;
+
+exports[`decode codec 8 extended decodes with BLE data 1`] = `
+[
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 56,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:03:32.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 54,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -56,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:03:42.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 54,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:03:52.001Z,
+  },
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 54,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 263,
+        "value": 1,
+      },
+      {
+        "id": 66,
+        "value": 12.859,
+      },
+      {
+        "id": 16,
+        "value": 3434,
+      },
+      {
+        "id": 331,
+        "value": "0003",
+      },
+    ],
+    "numberOfProperties": 6,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:00.000Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 54,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:02.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 50,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -50,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:12.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 50,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:22.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 50,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:32.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -48,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:42.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:04:52.001Z,
+  },
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 263,
+        "value": 1,
+      },
+      {
+        "id": 66,
+        "value": 12.858,
+      },
+      {
+        "id": 16,
+        "value": 3434,
+      },
+      {
+        "id": 331,
+        "value": "0003",
+      },
+    ],
+    "numberOfProperties": 6,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:00.000Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:02.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -56,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:12.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:22.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 49,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:32.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 48,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -50,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:42.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 48,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:05:52.001Z,
+  },
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 47,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 263,
+        "value": 1,
+      },
+      {
+        "id": 66,
+        "value": 12.859,
+      },
+      {
+        "id": 16,
+        "value": 3434,
+      },
+      {
+        "id": 331,
+        "value": "0003",
+      },
+    ],
+    "numberOfProperties": 6,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:00.000Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 46,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:02.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 45,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -48,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:12.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 44,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:22.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 40,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:32.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 37,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 4,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [
+          {
+            "id": "0102030405060708090a0b0c0d0e0f10020b010a",
+            "rssi": -56,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:42.001Z,
+  },
+  {
+    "eventId": 385,
+    "gps": {
+      "altitude": 37,
+      "angle": 0,
+      "latitude": 52.5767216,
+      "longitude": 8.8112416,
+      "satellites": 5,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 385,
+        "value": [],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2021-02-16T10:06:52.001Z,
+  },
+]
+`;
+
+exports[`decode codec 8 extended decodes with custom BLE data 1`] = `
+[
+  {
+    "eventId": 239,
+    "gps": {
+      "altitude": 39,
+      "angle": 292,
+      "latitude": 52.5767533,
+      "longitude": 8.81115,
+      "satellites": 7,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 1,
+      },
+      {
+        "id": 240,
+        "value": 1,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 87,
+      },
+      {
+        "id": 66,
+        "value": 13.391,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:37:57.000Z,
+  },
+  {
+    "eventId": 240,
+    "gps": {
+      "altitude": 38,
+      "angle": 258,
+      "latitude": 52.5767566,
+      "longitude": 8.81112,
+      "satellites": 8,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 1,
+      },
+      {
+        "id": 240,
+        "value": 1,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 87,
+      },
+      {
+        "id": 66,
+        "value": 13.391,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:00.000Z,
+  },
+  {
+    "eventId": 548,
+    "gps": {
+      "altitude": 37,
+      "angle": 258,
+      "latitude": 52.5767583,
+      "longitude": 8.8111133,
+      "satellites": 8,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 548,
+        "value": [
+          {
+            "V": 3.06,
+            "id": "7cd9f400d1c2",
+            "name": "ID1_F836AA",
+            "rssi": -56,
+          },
+          {
+            "V": 3.02,
+            "id": "7cd9f41a2d0a",
+            "moving": 1,
+            "name": "1. SensorX",
+            "pitch": -1,
+            "rh": 42,
+            "roll": -97,
+            "rssi": -54,
+            "temp": 26.78,
+          },
+        ],
+      },
+    ],
+    "numberOfProperties": 1,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:01.011Z,
+  },
+  {
+    "eventId": 239,
+    "gps": {
+      "altitude": 37,
+      "angle": 258,
+      "latitude": 52.5767566,
+      "longitude": 8.811115,
+      "satellites": 7,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 240,
+        "value": 0,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 86,
+      },
+      {
+        "id": 66,
+        "value": 13.204,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:03.000Z,
+  },
+  {
+    "eventId": 240,
+    "gps": {
+      "altitude": 37,
+      "angle": 258,
+      "latitude": 52.5767566,
+      "longitude": 8.811115,
+      "satellites": 7,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 0,
+      },
+      {
+        "id": 240,
+        "value": 0,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 86,
+      },
+      {
+        "id": 66,
+        "value": 13.204,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:03.010Z,
+  },
+  {
+    "eventId": 239,
+    "gps": {
+      "altitude": 37,
+      "angle": 258,
+      "latitude": 52.5767566,
+      "longitude": 8.811115,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 1,
+      },
+      {
+        "id": 240,
+        "value": 1,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 88,
+      },
+      {
+        "id": 66,
+        "value": 13.352,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:05.000Z,
+  },
+  {
+    "eventId": 240,
+    "gps": {
+      "altitude": 37,
+      "angle": 258,
+      "latitude": 52.5767566,
+      "longitude": 8.811115,
+      "satellites": 6,
+      "speed": 0,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 1,
+      },
+      {
+        "id": 240,
+        "value": 1,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 88,
+      },
+      {
+        "id": 66,
+        "value": 13.352,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:05.010Z,
+  },
+  {
+    "eventId": 0,
+    "gps": {
+      "altitude": 34,
+      "angle": 136,
+      "latitude": 52.5767766,
+      "longitude": 8.8110016,
+      "satellites": 5,
+      "speed": 7,
+    },
+    "ioElements": [
+      {
+        "id": 239,
+        "value": 1,
+      },
+      {
+        "id": 240,
+        "value": 1,
+      },
+      {
+        "id": 200,
+        "value": 0,
+      },
+      {
+        "id": 113,
+        "value": 87,
+      },
+      {
+        "id": 66,
+        "value": 13.376,
+      },
+    ],
+    "numberOfProperties": 5,
+    "priority": 0,
+    "timestamp": 2022-01-21T19:38:15.000Z,
+  },
+]
+`;
+
+exports[`decode codec 8 extended decodes with custom BLE data that is faulty 1`] = `
+{
+  "data": [
+    {
+      "eventId": 263,
+      "gps": {
+        "altitude": 101,
+        "angle": 0,
+        "latitude": 52.5768433,
+        "longitude": 8.81102,
+        "satellites": 0,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 0,
+        },
+        {
+          "id": 263,
+          "value": 1,
+        },
+        {
+          "id": 66,
+          "value": 12.528,
+        },
+      ],
+      "numberOfProperties": 6,
+      "priority": 0,
+      "timestamp": 2022-01-20T16:40:21.000Z,
+    },
+    {
+      "eventId": 0,
+      "gps": {
+        "altitude": 51,
+        "angle": 0,
+        "latitude": 52.5768433,
+        "longitude": 8.81102,
+        "satellites": 14,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 12.515,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T17:40:27.000Z,
+    },
+    {
+      "eventId": 548,
+      "gps": {
+        "altitude": 51,
+        "angle": 0,
+        "latitude": 52.5768433,
+        "longitude": 8.81102,
+        "satellites": 13,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 548,
+          "value": [
+            {
+              "V": 3.03,
+              "id": "7cd9f400d1c2",
+              "name": "ID1_F836AA",
+              "rssi": -55,
+            },
+            {
+              "V": 2.98,
+              "id": "7cd9f41a2d0a",
+              "name": "1. SensorX",
+              "pitch": -5,
+              "rh": 51,
+              "roll": -95,
+              "rssi": -57,
+              "temp": 5.57,
+            },
+          ],
+        },
+      ],
+      "numberOfProperties": 1,
+      "priority": 0,
+      "timestamp": 2022-01-20T17:40:32.011Z,
+    },
+    {
+      "eventId": 548,
+      "gps": {
+        "altitude": 77,
+        "angle": 0,
+        "latitude": 52.5768433,
+        "longitude": 8.81102,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 548,
+          "value": [
+            {
+              "V": 3.03,
+              "id": "7cd9f400d1c2",
+              "name": "ID1_F836AA",
+              "rssi": -48,
+            },
+            {
+              "V": 2.97,
+              "id": "7cd9f41a2d0a",
+              "name": "1. SensorX",
+              "pitch": -5,
+              "rh": 52,
+              "roll": -95,
+              "rssi": -57,
+              "temp": 4.06,
+            },
+            {
+              "id": "7cd9f404d58e",
+              "rssi": -93,
+            },
+            {
+              "V": 3.07,
+              "id": "7cd9f4191fa3",
+              "name": "2. Sensorx",
+              "pitch": 0,
+              "rh": 28,
+              "roll": 2,
+              "rssi": -97,
+              "temp": 24.95,
+            },
+          ],
+        },
+      ],
+      "numberOfProperties": 1,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:34:36.011Z,
+    },
+    {
+      "eventId": 239,
+      "gps": {
+        "altitude": 77,
+        "angle": 15,
+        "latitude": 52.5768149,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 12.598,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:34:39.000Z,
+    },
+    {
+      "eventId": 240,
+      "gps": {
+        "altitude": 77,
+        "angle": 15,
+        "latitude": 52.5768149,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 12.598,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:34:39.010Z,
+    },
+    {
+      "eventId": 0,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 13.601,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:34:48.000Z,
+    },
+    {
+      "eventId": 0,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 13.497,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:34:58.000Z,
+    },
+    {
+      "eventId": 548,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 548,
+          "value": [
+            {
+              "V": 3.03,
+              "id": "7cd9f400d1c2",
+              "name": "ID1_F836AA",
+              "rssi": -58,
+            },
+            {
+              "V": 2.97,
+              "id": "7cd9f41a2d0a",
+              "name": "1. SensorX",
+              "pitch": -5,
+              "rh": 52,
+              "roll": -95,
+              "rssi": -78,
+              "temp": 4.05,
+            },
+            {
+              "id": "7cd9f404d58e",
+              "rssi": -89,
+            },
+            {
+              "V": 3.07,
+              "id": "7cd9f4191fa3",
+              "name": "2. Sensorx",
+              "pitch": 0,
+              "rh": 28,
+              "roll": 2,
+              "rssi": -99,
+              "temp": 24.96,
+            },
+          ],
+        },
+      ],
+      "numberOfProperties": 1,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:06.011Z,
+    },
+    {
+      "eventId": 239,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 13.335,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:08.000Z,
+    },
+    {
+      "eventId": 240,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 13.335,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:08.010Z,
+    },
+    {
+      "eventId": 239,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 10,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 87,
+        },
+        {
+          "id": 66,
+          "value": 13.262,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:10.000Z,
+    },
+    {
+      "eventId": 240,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 87,
+        },
+        {
+          "id": 66,
+          "value": 13.262,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:11.000Z,
+    },
+    {
+      "eventId": 239,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 11,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 85,
+        },
+        {
+          "id": 66,
+          "value": 13.161,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:20.000Z,
+    },
+    {
+      "eventId": 240,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 10,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 0,
+        },
+        {
+          "id": 240,
+          "value": 0,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 85,
+        },
+        {
+          "id": 66,
+          "value": 13.161,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:24.000Z,
+    },
+    {
+      "eventId": 239,
+      "gps": {
+        "altitude": 78,
+        "angle": 191,
+        "latitude": 52.5768016,
+        "longitude": 8.8111916,
+        "satellites": 10,
+        "speed": 0,
+      },
+      "ioElements": [
+        {
+          "id": 239,
+          "value": 1,
+        },
+        {
+          "id": 240,
+          "value": 1,
+        },
+        {
+          "id": 200,
+          "value": 0,
+        },
+        {
+          "id": 113,
+          "value": 88,
+        },
+        {
+          "id": 66,
+          "value": 13.325,
+        },
+      ],
+      "numberOfProperties": 5,
+      "priority": 0,
+      "timestamp": 2022-01-20T18:35:26.000Z,
+    },
+  ],
+  "imei": null,
+  "isImei": false,
+  "meta": {
+    "codecId": 142,
+    "crc": 3566,
+    "dataLength": 1229,
+    "numberOfData": 16,
+  },
+}
+`;
