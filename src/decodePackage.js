@@ -14,7 +14,7 @@ function decoderForCodecId(codecId) {
 }
 
 function decodePackage(buffer) {
-  const header = decodeHeader(buffer)
+  const header = decodeHeader(buffer)
   const footer = decodeFooter(footerBufferFromBuffer(buffer))
   const decoder = decoderForCodecId(header.codecId)
 
