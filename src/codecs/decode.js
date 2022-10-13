@@ -143,9 +143,6 @@ function decodeCustomBLE(reader) {
     beacon.id = beaconReader.readBytes(idLength).toString("hex")
     beaconReader.skipBytes(2)
 
-    // Only allow Teltonika beacons, whose MAC addresses all start with 7cd9, for now.
-    if (!beacon.id.startsWith("7cd9")) continue
-
     beacons.push(beacon)
     beaconReader.skipBytes(2)
 
