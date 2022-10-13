@@ -1,4 +1,5 @@
 const { decode } = require("../")
+const { ChecksumError, CodecUnsupportedError, NumberOfDataError } = require("../src/errors")
 
 describe("decode", () => {
   describe("imei", () => {
@@ -59,20 +60,20 @@ describe("decode", () => {
 
     it("raises when the header does not match the footer amount of data", () => {
       expect(() => {
-        new TeltonikaTelemetryDecoder(Buffer.from("00000000000000458e0200000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003999", "hex")).decode()
-      }).toThrowError()
+        decode(Buffer.from("00000000000000458e0200000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003999", "hex"))
+      }).toThrowError(NumberOfDataError)
     })
 
     it("raises when the checksum is incorrect", () => {
       expect(() => {
-        new TeltonikaTelemetryDecoder(Buffer.from("00000000000000458e0100000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003990", "hex")).decode()
-      }).toThrowError()
+        decode(Buffer.from("00000000000000458e0100000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003990", "hex"))
+      }).toThrowError(ChecksumError)
     })
   })
 
   it("raises when the codec is unknown", () => {
     expect(() => {
-      new TeltonikaTelemetryDecoder(Buffer.from("0000000000000045820100000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003999", "hex")).decode()
-    }).toThrowError()
+      decode(Buffer.from("0000000000000045820100000175b756bf4800054078e51f56904d0000000000000000000008000600ef0000f00000500400150200c80300450300010042316d000100100007dcee000000000100003999", "hex"))
+    }).toThrowError(CodecUnsupportedError)
   })
 })
